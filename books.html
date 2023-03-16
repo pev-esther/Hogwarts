@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+<link rel = "stylesheet" type = "text/css" href = "fontsANDColors.css"> </link>
+<title> About Me - Harry Potter fan </title>
+</head>
+
+
+<body id = "Harry_p">
+<div id = "intro">
+	
+<table>
+	<tr>
+		<td>
+			<h2 style="color: white" class ="tx">I'm a Harry Potter fan!
+			</h2>
+			<p style="color: white"class="tx" >If I were a <strong>witch</strong> in Harry Potter's world I would... <br>
+				certainly be in <strong>Gryffindor</strong>,<br>
+				my Patronus would be a <strong>horse</strong>, <br>
+				in Mirror of Erised (הראי של ינפתא) I would see myself <strong>as a CEO</strong>, <br>
+				I would not play Quidditch (fear of heights) but I would enjoy watching the game<br>
+				and my favorite class at Hogwarts would be <strong>Arithmancy </strong>  (כשפומטיקה)- just like Hermione Granger.
+			</p>
+			<p style="color: white" class="tx">
+				There are a lot of tests that check which house you will belong to at Hogwarts, if you don't know which. a nice one can be<br> found at this link:
+				<a href = "https://www.buzzfeed.com/eleanorbate/accurate-af-sorting-quiz">https://www.buzzfeed.com/eleanorbate/accurate-af-sorting-quiz</a>
+			</p>
+		</td>
+		<td>
+           <img src ="cake.png" alt="hogwarts" width="600" height="350">
+		</td>
+	</tr>
+</table>
+
+	</div>
+<div id = "first_fun">
+
+	
+<table>
+		<tr>
+			<td class="first_fun_table">
+				<div >
+				<form>
+					<h3 class="tx">to see your headmaster please choose your house<br>(Note: this information comes from 
+								<a href= "https://hp-api.onrender.com/api/characters/staff">API</a> so some details ,including pictures, might be missing):</h3>
+					 <input type="radio" id="Gryffindor" name="house" value="G">
+					 <label for="Gryffindor" class="tx">Gryffindor</label><br>
+					 <input type="radio" id="Ravenclaw" name="house" value="R">
+					 <label for="Ravenclaw" class="tx">Ravenclaw</label><br>
+					 <input type="radio" id="Slytherin" name="house" value="S">
+					 <label for="Slytherin" class="tx">Slytherin</label><br>
+					 <input type="radio" id="Hufflepuff" name="house" value="H">
+					 <label for="Hufflepuff" class="tx">Hufflepuff</label><br><br>
+					</form>
+					  <button id = "ftch">who is my teacher?</button>
+					 
+				</div>
+			</td>
+		<td class="first_fun_table">
+			<p id="demo"></p>
+		</td>
+		<td class="first_fun_table" id = "t_p">	</td>
+		</tr>
+	
+</table>
+</div>
+
+
+<div id="second_fun">
+<h2 class = "tx" >
+	I thought to myself what other fun activity could be done when combining Harry Potter and software.<br>
+	And than I saw this <a href ="https://hp-api.onrender.com/api/spells" >API</a> with information abut spells:<br> 
+	from Wingardium Leviosa to Expecto Patronum!<br>
+	type the name in the search bar and practice with your wand today!!!
+</h2>
+
+
+  <input type="text" id="fun2">
+  <button class="tx" id = "B2">press</button>
+  <label class="tx">note: for all spells clear the search bar and press</label>
+  <p class="tx" id = "demo2"></p>
+</div>
+
+<script src = "teacher.js"></script>
+</body>
+
+
+</html>
